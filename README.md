@@ -1,5 +1,12 @@
-# coursera-test
-Test repo for coursera
+# coursera-projects
+Repo to hold test projects, class assignments, etc.
+
+# Notes from class
+Week 1:
+- Start app.js files with:
+  - (function() { ... (code) ... })();
+  - 'use strict';
+- Protect from minification with: MainController.$inject = ['$scope', ...];
 
 # Angular class assignments:
 * Module 1 solution: https://goo.gl/p2IO9e

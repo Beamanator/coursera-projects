@@ -1,7 +1,10 @@
 # coursera-test
 Test repo for coursera
 
-Useful commands:
+# Angular class assignments:
+* Module 1 solution: https://goo.gl/p2IO9e
+
+#Useful commands:
 
 Browser-Sync:
 browser-sync start --serve --directory --files "\*\*/\*"

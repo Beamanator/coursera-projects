@@ -24,6 +24,9 @@ Week 2:
 - binding types (lecture 16)
   - 1-time binding - {{ :: property }} -> maybe useful for showing user details on a profile page
   - if 1-time bound property is initialized, it will never get updated again
+- ng-repeat (lecture 17 / 18)
+  - filter with ng-repeat="item in array | filter : searchString"
+  - index of array is $index
 
 # Angular class assignments:
 * Module 1 solution: https://goo.gl/p2IO9e

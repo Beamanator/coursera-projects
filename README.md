@@ -27,6 +27,9 @@ Week 2:
 - ng-repeat (lecture 17 / 18)
   - filter with ng-repeat="item in array | filter : searchString"
   - index of array is $index
+- Scope Inheritance (lecture 19)
+  - Controller as syntax -> use ng-controller="mainCtrl as ctrl1" -> to not need $scope1 or $inject, just this.prop
+  - $scope is based on prototypal inheritance
 
 # Angular class assignments:
 * Module 1 solution: https://goo.gl/p2IO9e

@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
 
-	angular.module('ShoppingListCheckOff', [])
+	angular.module('ShoppingListCheckOffApp', [])
 	.controller('ToBuyController', ToBuyController)
 	.controller('AlreadyBoughtController', AlreadyBoughtController)
 	.service('ShoppingListCheckOffService', ShoppingListCheckOffService);
@@ -23,7 +23,7 @@
 	function AlreadyBoughtController(ShoppingListCheckOffService) {
 		var BoughtList = this;
 
-		BoughtList.BoughtList = ShoppingListCheckOffService.getItemsBought();
+		BoughtList.boughtList = ShoppingListCheckOffService.getItemsBought();
 	};
 
 	function ShoppingListCheckOffService() {
@@ -48,7 +48,7 @@
 		// add item (index = index) to itemsBought array & remove from itemsToBuy array
 		service.buyItem = function(index) {
 			itemsBought.push(itemsToBuy[index]);
-			itemsToBuy = itemsToBuy.splice(index);
+			itemsToBuy.splice(index, 1);
 		};
 
 		service.getItemsBought = function() {

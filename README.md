@@ -37,6 +37,7 @@ Week 2:
 
 # Angular class assignments:
 * Module 1 solution: https://goo.gl/p2IO9e
+* Module 2 solution: https://goo.gl/ZNzKHM
 
 #Useful commands:
 

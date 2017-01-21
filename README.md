@@ -35,6 +35,17 @@ Week 2:
   - if ng-if="condition" condition is true, item is shown. else, html item is taken out of the DOM
   - ng-show="condition" has classes for angular to hide (ng-hide). ng-hide is opposite.
 
+Week 3:
+- Promises with $q (lecture 24)
+- $http service (lecture 25)
+  - response.data holds server data response. If JSON, automatically gets transformed into JS object
+  - module.constant can be used as injectable constant
+- Directives (lecture 26) -> this is why to use Angular!
+  - DDO = directive definition object. registered faction function returns DDO
+  - \<my-tag\> in HTML turns to 'myTag' in app.js
+- restrict attribute of DDO (lecture 27)
+  - A = attribute, E = element. default = AE - looks like usually 1 makes sense, not both
+
 # Angular class assignments:
 * Module 1 solution: https://goo.gl/p2IO9e
 * Module 2 solution: https://goo.gl/ZNzKHM

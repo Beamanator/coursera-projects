@@ -30,6 +30,10 @@ Week 2:
 - Scope Inheritance (lecture 19)
   - Controller as syntax -> use ng-controller="mainCtrl as ctrl1" -> to not need $scope1 or $inject, just this.prop
   - $scope is based on prototypal inheritance
+- .scope vs .factory vs .provider (lecture 20 - 22)
+- ng-if, ng-show, ng-hide (lecture 23)
+  - if ng-if="condition" condition is true, item is shown. else, html item is taken out of the DOM
+  - ng-show="condition" has classes for angular to hide (ng-hide). ng-hide is opposite.
 
 # Angular class assignments:
 * Module 1 solution: https://goo.gl/p2IO9e

@@ -45,6 +45,9 @@ Week 3:
   - \<my-tag\> in HTML turns to 'myTag' in app.js
 - restrict attribute of DDO (lecture 27)
   - A = attribute, E = element. default = AE - looks like usually 1 makes sense, not both
+- isolate scope (lecture 28) - breaks prototypal inheritance
+  - defined with scope: {property: '=prop'} -> property is in controller, prop is in html file
+  - =prop is 2-way binding, '=?' means optional, @ is 1-way binding, and directive property is a string
 
 # Angular class assignments:
 * Module 1 solution: https://goo.gl/p2IO9e

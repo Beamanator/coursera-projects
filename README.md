@@ -48,6 +48,13 @@ Week 3:
 - isolate scope (lecture 28) - breaks prototypal inheritance
   - defined with scope: {property: '=prop'} -> property is in controller, prop is in html file
   - =prop is 2-way binding, '=?' means optional, @ is 1-way binding, and directive property is a string
+- directives - passing by reference '&' (lecture 30)
+  - & binding allows us to execute an expression (ex: function value) in the context of the parent scope
+- manipulating DOM with link function ('link') - inside directory ddo (lecture 31)
+  - param 'scope' = same $scope as directive / directive controller [no $ b/c its not 'injected']
+  - param 'controller' = same controller injected in directive (if there is one)
+  - param 'elem' = top-level dom element (w/ directive attribute, or directive element itself)
+    - either jqLite or jQuery if included before angular.min.js in main html page
 
 # Angular class assignments:
 * Module 1 solution: https://goo.gl/p2IO9e

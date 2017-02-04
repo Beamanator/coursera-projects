@@ -55,6 +55,9 @@ Week 3:
   - param 'controller' = same controller injected in directive (if there is one)
   - param 'elem' = top-level dom element (w/ directive attribute, or directive element itself)
     - either jqLite or jQuery if included before angular.min.js in main html page
+- transclude - ng-transclude & transclude property (lecture 32)
+  - allows user to pass custom HTML elements (templates) into directives
+  - content is evaluated in parent's context, not directive's context (scope = parent controller scope in example)
 
 # Angular class assignments:
 * Module 1 solution: https://goo.gl/p2IO9e

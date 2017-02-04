@@ -1,0 +1,12 @@
+<h3>{{ foundItemsCtrl.title }} ({{ foundItemsCtrl.found.length }} items)</h3>
+
+<div ng-repeat="item in foundItemsCtrl.found" class="row">
+	<div><span class="glyphicon glyphicon glyphicon-minus col-md-1"></span></div>
+	<div class="col-md-3">{{ item.name }}</div>
+	<div class="col-md-1">{{ item.short_name }}</div>
+	<div class="col-md-4">{{ item.description }}</div>
+	
+	<button
+		class="col-md-2 btn button-primary"
+		ng-click="foundItemsCtrl.onRemove({index: $index});">Don't want this one!</button>
+</div>

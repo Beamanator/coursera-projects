@@ -66,7 +66,7 @@ Week 3:
 #Useful commands:
 
 Browser-Sync:
-browser-sync start --serve --directory --files "\*\*/\*"
+browser-sync start --server --directory --files "\*\*/\*"
 
 Sublime Text 3:
 subl.exe . (opens new sublime window -> usually means 2 are opened)

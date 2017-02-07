@@ -45,9 +45,9 @@ Week 3:
   - \<my-tag\> in HTML turns to 'myTag' in app.js
 - restrict attribute of DDO (lecture 27)
   - A = attribute, E = element. default = AE - looks like usually 1 makes sense, not both
-- isolate scope (lecture 28) - breaks prototypal inheritance
+- isolate scope (lecture 28) - breaks prototypal  inheritance
   - defined with scope: {property: '=prop'} -> property is in controller, prop is in html file
-  - =prop is 2-way binding, '=?' means optional, @ is 1-way binding, and directive property is a string
+  - =prop is 2-way binding, '=?' means optional, @ is 1-way binding (into a DOM element), and directive property is a string
 - directives - passing by reference '&' (lecture 30)
   - & binding allows us to execute an expression (ex: function value) in the context of the parent scope
 - manipulating DOM with link function ('link') - inside directory ddo (lecture 31)
@@ -58,6 +58,14 @@ Week 3:
 - transclude - ng-transclude & transclude property (lecture 32)
   - allows user to pass custom HTML elements (templates) into directives
   - content is evaluated in parent's context, not directive's context (scope = parent controller scope in example)
+  
+Week 4:
+- Components (like directives, but more aligned to Angular 2 architecture & have some defaults) (lecture 33)
+  - Conventions: inputs: use '<' and '@' only. Never change property of passed in object or array
+  - Well defined lifecycle ($onInit, $onChanges, $postLink, $onDestroy, more)
+  - Steps: 1) register component with module, 2) input config object, not function
+  - Scope is isolate scope, placed on $ctrl automatically unless set controllerAs to another string
+  - Lifecycle methods (pt 3)
 
 # Angular class assignments:
 * Module 1 solution: https://goo.gl/p2IO9e
